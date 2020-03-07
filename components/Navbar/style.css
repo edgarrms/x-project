@@ -1,0 +1,22 @@
+.list-group-item {
+    line-height: 2.5;
+    }
+  
+    body {
+    background-image: url("");
+    background-size: cover;
+    }
+  
+    .navbar{
+    opacity: 9;
+    }
+  
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+  
+    .footer {
+      text-align: center;
+    }
