@@ -2,15 +2,7 @@ import React, { useState } from "react";
 import Container from "../../components/Container";
 import Col from "../../components/Col";
 import Row from "../../components/Row";
-import Card from "../../components/Card";
-import CardTitle from "../../components/CardTitle";
-import CardTitleText from "../../components/CardTitleText";
-
 import APIcall from "../../components/APIcall";
-import CardBtn from "../../components/CardBtn";
-import CardContainer from "../../components/CardContainer";
-import Navbar from "../../components/Navbar";
-
 function Signup() {
   const [username, setUsername] = useState();
   const [password, setPassword] = useState();
@@ -30,30 +22,6 @@ function Signup() {
 
          
         </APIcall>
-        <Navbar>
-
-
-        </Navbar>
-        <CardContainer>
-
-
-        </CardContainer>
-        <Card>
-
-
-        </Card>
-        <CardTitle>
-
-
-        </CardTitle>
-        <CardBtn>
-
-
-        </CardBtn>
-        <CardTitleText>
-
-
-        </CardTitleText>
       </div>
       <form onSubmit={handleSubmit}>
         <Container className="mt-3 px-5">
